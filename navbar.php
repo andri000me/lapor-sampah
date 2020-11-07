@@ -5,12 +5,11 @@
     </a>
     <ul class="nav nav-pills nav-fill">
         <li class="nav-item">
-            <!-- <a class="nav-link active" href="#">Daftar</a> -->
-            <button class="btn btn-outline-light mr-md-2" type="button">Daftar</button>
+            <a href="daftar.php"><button class="btn btn-outline-light mr-md-2" type="button">Daftar</button></a>
         </li>
         <li class="nav-item">
-            <!-- <a class="nav-link active" href="#">Masuk</a> -->
-            <button class="btn btn-outline-light mr-md-2 ml-md-2" type="button">Masuk</button>
+            <a href="#"><button class="btn btn-outline-light mr-md-2 ml-md-2" type="button">Masuk</button></a>
+            
         </li>
         <li class="nav-item">
             <!-- <a class="nav-link active" href="#">Tentang Kami</a> -->
