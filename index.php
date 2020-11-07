@@ -14,13 +14,19 @@
 <body>
     <?php include "navbar.php" ?>
 
-    <div class="card ml-md-5 mr-md-5">
-        <div class="card-body text-sm-center shadow-lg">
-            <h1>Selamat Datang di Website Lapor Sampah</h1>
+    <div class="container mt-md-5">
+        <div class="row">
+            <div class="col">
+                <div class="card text-center">
+                    <div class="card-body shadow-lg">
+                        <h3 class="card-title">Selamat Datang di Website Lapor Sampah</h3>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </div>
 
+    <?php include "footer.php" ?>
 </body>
 <!-- Muat JS -->
 <script src="assets/js/jquery-3.5.1.slim.min.js"></script>

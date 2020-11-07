@@ -1,5 +1,5 @@
 <nav class="navbar sticky-top navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.php">
         <img src="assets/img/bin.svg" width="30" height="30" class="d-inline-block align-top" alt="Lapor Sampah">
         Lapor Sampah
     </a>
