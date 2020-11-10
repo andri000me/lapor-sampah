@@ -1,11 +1,11 @@
 <nav class="navbar sticky-top navbar-dark bg-primary">
-    <a class="navbar-brand" href="index.php">
-        <img src="assets/img/bin.svg" width="30" height="30" class="d-inline-block align-top" alt="Lapor Sampah">
+    <a class="navbar-brand" href="<?= base_url(); ?>">
+        <img src="<?= base_url(); ?>assets/img/bin.svg" width="30" height="30" class="d-inline-block align-top" alt="Lapor Sampah">
         Lapor Sampah
     </a>
     <ul class="nav nav-pills nav-fill">
         <li class="nav-item">
-            <a href="<?= base_url(); ?>home/daftar.php"><button class="btn btn-outline-light mr-md-2" type="button">Daftar</button></a>
+            <a href="<?= base_url('auth/daftar'); ?>"><button class="btn btn-outline-light mr-md-2" type="button">Daftar</button></a>
         </li>
         <li class="nav-item">
             <a href="#"><button class="btn btn-outline-light mr-md-2 ml-md-2" type="button">Masuk</button></a>
