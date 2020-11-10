@@ -47,7 +47,7 @@ class Auth extends CI_Controller
     public function masuk()
     {
         $this->form_validation->set_rules('username', 'Username', 'required|trim');
-        $this->form_validation->set_rules('password', 'Username', 'required|trim');
+        $this->form_validation->set_rules('password', 'Password', 'required|trim');
         if ($this->form_validation->run() == false) {
             $data['title'] = 'Masuk | Lapor Sampah';
             $this->load->view('templates/header', $data);
@@ -64,6 +64,8 @@ class Auth extends CI_Controller
         $password = $this->input->post('password');
 
         $user = $this->db->get_where('user', ['username' => $username])->row_array();
+
+
         if ($user) {
             if (password_verify($password, $user['password'])) {
                 $data = [
