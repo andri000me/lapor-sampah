@@ -38,7 +38,49 @@ class Auth extends CI_Controller
 
             ];
             $this->db->insert('user', $data);
-            redirect('auth');
+            $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">
+            Berhasil mendaftar, silahkan masuk!</div>');
+            redirect('auth/masuk');
+        }
+    }
+
+    public function masuk()
+    {
+        $this->form_validation->set_rules('username', 'Username', 'required|trim');
+        $this->form_validation->set_rules('password', 'Username', 'required|trim');
+        if ($this->form_validation->run() == false) {
+            $data['title'] = 'Masuk | Lapor Sampah';
+            $this->load->view('templates/header', $data);
+            $this->load->view('templates/navbar');
+            $this->load->view('home/masuk');
+            $this->load->view('templates/footer');
+        } else {
+            $this->_login();
+        }
+    }
+    private function _login()
+    {
+        $username = $this->input->post('username');
+        $password = $this->input->post('password');
+
+        $user = $this->db->get_where('user', ['username' => $username])->row_array();
+        if ($user) {
+            if (password_verify($password, $user['password'])) {
+                $data = [
+                    'username' => $user['username'],
+                    'level' => $user['level']
+                ];
+                $this->session->set_userdata($data);
+                echo 'berhasil login';
+            } else {
+                $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">
+                Password salah, silahkan ulangi lagi!</div>');
+                redirect('auth/masuk');
+            }
+        } else {
+            $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">
+            Username tidak terdaftar!</div>');
+            redirect('auth/masuk');
         }
     }
 }

@@ -26,7 +26,7 @@
                             <small id="emailHelp" class="form-text text-danger"><?= form_error('password2'); ?></small>
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary">Daftar</button>
                     </form>
                 </div>
             </div>

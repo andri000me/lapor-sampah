@@ -8,7 +8,7 @@
             <a href="<?= base_url('auth/daftar'); ?>"><button class="btn btn-outline-light mr-md-2" type="button">Daftar</button></a>
         </li>
         <li class="nav-item">
-            <a href="#"><button class="btn btn-outline-light mr-md-2 ml-md-2" type="button">Masuk</button></a>
+            <a href="<?= base_url('auth/masuk'); ?>"><button class="btn btn-outline-light mr-md-2 ml-md-2" type="button">Masuk</button></a>
 
         </li>
         <li class="nav-item">
