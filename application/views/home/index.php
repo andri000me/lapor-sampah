@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <?php include "navbar.php" ?>
+
 
     <div class="container mt-md-5">
         <div class="row">
@@ -26,7 +26,7 @@
         </div>
     </div>
 
-    <?php include "footer.php" ?>
+
 </body>
 
 <!-- Muat JS -->
