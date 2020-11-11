@@ -47,7 +47,7 @@
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">&copy; 2020 Copyright:
-    <a href="#"> Lapor Sampah</a>
+    <a href="<?= base_url(); ?>"> Lapor Sampah</a>
   </div>
   <!-- Copyright -->
 
