@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 10, 2020 at 09:29 AM
+-- Generation Time: Nov 11, 2020 at 01:40 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.11
 
@@ -87,7 +87,7 @@ CREATE TABLE `user` (
   `id_user` int(11) NOT NULL,
   `name` varchar(256) NOT NULL,
   `username` varchar(256) NOT NULL,
-  `password` varchar(50) NOT NULL,
+  `password` varchar(100) NOT NULL,
   `level` enum('admin','pelapor') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -96,7 +96,9 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id_user`, `name`, `username`, `password`, `level`) VALUES
-(2, 'Singgih Bayu Wicaksono', 'sngghbyw', '$2y$10$Tkh7Qr.kVxy6M/gt0ZJgl..z9RTsB2OtQHcedloMll0', 'pelapor');
+(6, 'Singgih Bayu Wicaksono', 'sngghbyw', '123456', 'pelapor'),
+(9, 'musa', 'musa', '$2y$10$z3gYN2N0kdQO6CEInJ8Ns.selZAyBejbm8DD2TG.r63', 'pelapor'),
+(10, 'danis', 'danis', '$2y$10$iVpRjXN5zNrNi1kFmlv4AuXeYd5b/nQbacN2LD8aqPF70vh2capki', 'pelapor');
 
 --
 -- Indexes for dumped tables
@@ -171,7 +173,7 @@ ALTER TABLE `status_laporan`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- Constraints for dumped tables
