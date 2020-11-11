@@ -5,3 +5,5 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/himawanTIF/lapor-sampah?style=for-the-badge)](https://github.com/himawanTIF/lapor-sampah/graphs/contributors)
 
 ## Tugas Kelompok Pemrograman Web Dinamis Pembuatan Aplikasi Lapor Sampah
+
+> Ini adalah website Lapor sampah yang dibuat untuk memenuhi kebutuhan tugas mata kuliah Pemrograman Web Dinamis Jurusan Teknik Informatika, Universitas Ahmad Dahlan
