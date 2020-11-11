@@ -12,8 +12,9 @@
 
         </li>
         <li class="nav-item">
-            <!-- <a class="nav-link active" href="#">Tentang Kami</a> -->
-            <button class="btn btn-outline-light ml-md-2" type="button">Tentang Kami</button>
+            <a href="<?= base_url('auth/tentang'); ?>"><button class="btn btn-outline-light mr-md-2 ml-md-2" type="button">Tentang Kami</button></a>
+
         </li>
+
     </ul>
 </nav>

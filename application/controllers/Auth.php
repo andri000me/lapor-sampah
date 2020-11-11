@@ -86,4 +86,12 @@ class Auth extends CI_Controller
             redirect('auth/masuk');
         }
     }
+    public function tentang()
+    {
+        $data['title'] = 'Tentang Kami | Lapor Sampah';
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/navbar');
+        $this->load->view('home/tentang');
+        $this->load->view('templates/footer');
+    }
 }
