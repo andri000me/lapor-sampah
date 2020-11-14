@@ -8,8 +8,9 @@
 
     <!-- Muat CSS -->
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?= base_url(); ?>assets/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/custom-style.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/fontawesome/css/all.css">
+
 </head>
 
 <body>
