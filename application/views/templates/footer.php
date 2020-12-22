@@ -3,34 +3,18 @@
 <script src="<?= base_url(); ?>assets/js/bootstrap.min.js"></script>
 <script src="<?= base_url(); ?>assets/js/bootstrap.bundle.min.js"></script>
 
-
-<footer class="footer">
-    <div class="row">
-        <div class="col-sm-6 col-md-4 footer-navigation">
-            <h3><a href="#">BBB<span>ootstrap</span></a></h3>
-            <p class="links"><a href="#">Home</a><strong> · </strong><a href="#">Blog</a><strong> · </strong><a
-                    href="#">Pricing</a><strong> · </strong><a href="#">About</a><strong> · </strong><a
-                    href="#">Faq</a><strong> · </strong><a href="#">Contact</a></p>
-            <p class="company-name">BBBOOTSTRAP.COM © 2020</p>
-        </div>
-        <div class="col-sm-6 col-md-4 footer-contacts">
-            <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
-                <p><span class="new-line-span">21 Revolution Street</span>NY, USA</p>
-            </div>
-            <div><i class="fa fa-phone footer-contacts-icon"></i>
-                <p class="footer-center-info email text-left"> +1 9485045958</p>
-            </div>
-            <div><i class="fa fa-envelope footer-contacts-icon"></i>
-                <p> <a href="#" target="_blank">support@bbbootstrap.com</a></p>
-            </div>
-        </div>
-        <div class="clearfix"></div>
-        <div class="col-md-4 footer-about">
-            <h4>About the company</h4>
-            <p>BBBootstrap.com is one of the leading website for bootstrap snippets.</p>
-            <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
-                        class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i
-                        class="fa fa-github"></i></a></div>
+<section>
+    <div class="container mt-md-5">
+        <div class="row">
+            <div class="col-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, repudiandae dolor libero
+                quia sunt minus odio ipsum, aliquid molestias, delectus quas assumenda itaque architecto cupiditate
+                officia? Perspiciatis aspernatur minima qui?</div>
+            <div class="col-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ipsum dolor laborum
+                quidem vel nostrum commodi aliquam sed soluta possimus, nobis cupiditate adipisci ea. Ab iste saepe
+                minima odit eius.</div>
+            <div class="col-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga soluta nihil vero, ab amet
+                consequuntur quas nisi magnam iure unde labore natus consectetur neque similique quidem expedita,
+                repudiandae accusantium voluptatum.</div>
         </div>
     </div>
-</footer>
+</section>
