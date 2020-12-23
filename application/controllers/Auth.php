@@ -94,4 +94,12 @@ class Auth extends CI_Controller
         $this->load->view('home/tentang');
         $this->load->view('templates/footer');
     }
+    public function form()
+    {
+        $data['title'] = 'Laporan Sampah | Lapor Sampah';
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/navbar');
+        $this->load->view('home/form');
+        $this->load->view('templates/footer');
+    }
 }
