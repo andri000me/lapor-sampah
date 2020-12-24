@@ -13,10 +13,13 @@
                 <p>Mergangsan, Kota Yogyakarta</p>
                 <p>DI Yogyakarta</p>
             </div>
-            
+
             <div class="col-sm">
-                <label>Sosial Media</label>
-               <a href=""><i class="fas fa-facebook"></i></a> 
+                <a href="facebook.com">
+                    <i class="fab fa-facebook fa-fw fa-2x"></i>
+                    <span>Sosial Media</span>
+                </a>
+
             </div>
         </div>
     </div>
