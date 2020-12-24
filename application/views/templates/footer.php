@@ -15,11 +15,12 @@
             </div>
 
             <div class="col-sm">
-                <a href="facebook.com">
-                    <i class="fab fa-facebook fa-fw fa-2x"></i>
-                    <span>Sosial Media</span>
+                <a href="facebook.com" class="flex-column">
+                    <div class="justify-content-start align-content-center">
+                        <span class="fab fa-facebook fa-fw fa-2x"></span>
+                        <span>Sosial Media</span>
+                    </div>
                 </a>
-
             </div>
         </div>
     </div>
